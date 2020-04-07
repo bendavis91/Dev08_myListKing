@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<!--##############################################
+#1 This is my List King. You should make it yours, 
+Change the page title to your name, 
+add in authorship comments too. BC 
+
+author: Ben Davis
+date: 4/05/2020
+version:1.0
+###############################################-->
+	
+<head>
+  <meta charset="UTF-8">
+	<title>Ben Davis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+<!--##############################################
+#2 Help! Why did my stylesheet stop loading! BC 
+
+Hey, your style sheet directory is named differently.
+I changed it to just "style" to match what your
+stylesheet is named.
+###############################################-->
+		<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--##############################################
+#3 Plz give a double-check on all my tags. Is my 
+HTML page valid. All tags closed? Parentheses, quotatoins, 
+etc. (Hint: 2 errors to fix here) -BC
+
+You had a missing quotation on your second input inside form.
+I fixed that for you.
+###############################################-->
+	
+<body>
+
+  <div id="page">
+  <h1 id="header">List</h1>
+  <h2>Buy groceries <span id="counter"></span></h2>
+  <ul>
+    <li id="one" class="hot"><em>fresh</em> figs</li>
+    <li id="two" class="hot">pine nuts</li>
+    <li id="three" class="hot">honey</li>
+    <li id="four">balsamic vinegar</li>
+  </ul>
+  <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+  <form id="newItemForm">
+    <input type="text" id="itemDescription" placeholder="Add description" />
+    <input type="submit" id="add" value="add" />																				 
+  </form>
+</div>
+  <script src='libs/jquery/3.3.1/jquery.min.js'></script>
+	<script src='js/index.js'></script>
+<!--##############################################
+#4 I think I'm having trouble debugging my script
+because this HTML file doesn't color code anything 
+for me to help me figure out my errors! How can I
+fix this. (Also this HTML code is so long, I'd  love to 
+make it simpler by moving this code somewhere else!) -BC
+																				 
+(hey, after this, the next one, #5 is in my stylesheet)
+
+I created a js directory and a new file called index.js.
+I copied the script code and pasted it into the index.js
+and deleted the script tags, and I also formatted the code.
+###############################################-->
+	<footer>
+    <p>Github Repo link:
+    <a href="https://github.com/bendavis91/Dev08_myListKing" target ="_blank">Github Dev08 Repo</a> </p>
+    <p>Nuchecker link:
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbendavis91.github.io%2FDev08_myListKing%2F" target="_blank">Nuchecker</a></p>
+    <p>Wave checker:
+    <a href="https://wave.webaim.org/report#/https://bendavis91.github.io/Dev08_myListKing/" target="_blank">Wave</a></p>
+  </footer>
+	</body>
+	
+</html>
